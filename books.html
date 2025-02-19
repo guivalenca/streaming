@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>Início</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="movies.html">Movies</a></li>
+                <li><a href="shows.html">TV Shows</a></li>
+                <li><a href="books.html">Books</a></li>
+            </ul>
+        </nav>
+        <main>
+            <div class="carousel">
+                <div>
+                    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="https://files.tecnoblog.net/wp-content/uploads/2022/06/breaking-bad.jpg" class="d-block w-100" alt="Breaking Bad">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="https://static.hbo.com/game-of-thrones-1-1920x1080.jpg" class="d-block w-100" alt="Game of Thrones">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="https://m.media-amazon.com/images/S/pv-target-images/e56c18e08e0a07c8d4ee65f45be64cefe6b070992a84182dd5ba35eb7cfc6510.jpg" class="d-block w-100" alt="Movie Poster">
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <h1>Em Destaque</h1>
+                <p>Confira as novidades e os filmes mais assistidos.</p>
+                <div class="posters">
+                    <img src="https://image.tmdb.org/t/p/w200/ggFHVNu6YYI5L9pCfOacjizRGt.jpg" alt="Breaking Bad" title="Breaking Bad">
+                    <img src="https://media.themoviedb.org/t/p/w300_and_h450_bestv2/rTc7ZXdroqjkKivFPvCPX0Ru7uw.jpg" width="200" height="300">
+                    <img src="https://image.tmdb.org/t/p/w200/x2LSRK2Cm7MZhjluni1msVJ3wDF.jpg" alt="Stranger Things" title="Stranger Things">
+                    <img src="https://image.tmdb.org/t/p/w200/sWgBv7LV2PRoQgkxwlibdGXKz1S.jpg" alt="The Mandalorian" title="The Mandalorian">
+                    <img src="https://image.tmdb.org/t/p/w200/u3bZgnGQ9T01sWNhyveQz0wH0Hl.jpg" alt="Game of Thrones" title="Game of Thrones">
+                    <img src="https://image.tmdb.org/t/p/w200/mY7SeH4HFFxW1hiI6cWuwCRKptN.jpg" alt="The Boys" title="The Boys">
+                    <img src="https://image.tmdb.org/t/p/w200/y55oBgf6bVMI7sFNXwJDrSIxPQt.jpg" alt="Westworld" title="Westworld">
+                    <img src="https://image.tmdb.org/t/p/w200/reEMJA1uzscCbkpeRJeTT2bjqUp.jpg" alt="Money Heist" title="Money Heist">
+                    <img src="https://image.tmdb.org/t/p/w200/7vjaCdMw15FEbXyLQTVa04URsPm.jpg" alt="The Witcher" title="The Witcher">
+                    <img src="https://media.themoviedb.org/t/p/w300_and_h450_bestv2/fqldf2t8ztc9aiwn3k6mlX3tvRT.jpg" width="200" height="300">
+                    <img src="https://media.themoviedb.org/t/p/w220_and_h330_face/5E1BhkCgjLBlqx557Z5yzcN0i88.jpg" width="200" height="300">
+                    <img src="https://media.themoviedb.org/t/p/w220_and_h330_face/KoYWXbnYuS3b0GyQPkbuexlVK9.jpg" width="200" height="300">
+                    <img src="https://media.themoviedb.org/t/p/w220_and_h330_face/vQiryp6LioFxQThywxbC6TuoDjy.jpg" width="200" height="300">
+                    <img src="https://image.tmdb.org/t/p/w200/qWnJzyZhyy74gjpSjIXWmuk0ifX.jpg" alt="The Office (US)" title="The Office (US)">
+                    <img src="https://media.themoviedb.org/t/p/w220_and_h330_face/gdIrmf2DdY5mgN6ycVP0XlzKzbE.jpg" width="200" height="300">
+                    <img src="https://image.tmdb.org/t/p/w200/oIkxqt6ug5zT5ZSUUyc1Iqopf02.jpg" alt="The Handmaid's Tale" title="The Handmaid's Tale">
+                    <img src="https://media.themoviedb.org/t/p/w220_and_h330_face/og6S0aTZU6YUJAbqxeKjCa3kY1E.jpg" width="200" height="300">
+                    <img src="https://media.themoviedb.org/t/p/w220_and_h330_face/xgfjxyV3g1S68opzuvG6G87muDp.jpg" width="200" height="300">
+                    <img src="https://media.themoviedb.org/t/p/w220_and_h330_face/vUUqzWa2LnHIVqkaKVlVGkVcZIW.jpg" width="200" height="300">
+                    <img src="https://media.themoviedb.org/t/p/w220_and_h330_face/oxmdHR5Ka28HAJuMmS2hk5K6QQY.jpg" width="200" height="300">
+                    <img src="https://media.themoviedb.org/t/p/w220_and_h330_face/3Q0hd3heuWwDWpwcDkhQOA6TYWI.jpg" width="200" height="300">
+                </div>
+            </div>
+        </main>
+    </body>
+</html>
